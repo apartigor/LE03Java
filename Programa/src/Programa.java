@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import lista.*;
 
 public class Programa {
     public static void main(String[] args) {
@@ -36,10 +37,11 @@ public class Programa {
         int opcao = scanner.nextInt();
 
         switch (opcao) {
+
+            case 1:
+                Exercicio01.executar();
+                break;
             /*
-             * case 1:
-             * Exercicio01.executar();
-             * break;
              * case 2:
              * Exercicio02.executar();
              * break;
