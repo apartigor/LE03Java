@@ -42,12 +42,12 @@ public class Programa {
                 Exercicio01.executar();
                 break;
              case 2:
+             Exercicio02.executar();
+             break;
+             case 3:
              Exercicio03.executar();
              break;
-             /*case 3:
-             Exercicio03.executar();
-             break;
-             case 4:
+             /*case 4:
              Exercicio04.executar();
              break;
              case 5:
