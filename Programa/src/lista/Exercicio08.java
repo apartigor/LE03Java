@@ -1,7 +1,7 @@
 package lista;
 
 import java.util.Scanner;
-import lista.classes.*;
+import lista.classes.AlunoAprovado;
 
 public class Exercicio08 {
     public static void executar() {
