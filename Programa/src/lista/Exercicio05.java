@@ -1,7 +1,6 @@
 package lista;
 
 import java.util.Scanner;
-import lista.classes.*;
 
 public class Exercicio05 {
     public static void executar() {
@@ -13,7 +12,7 @@ public class Exercicio05 {
         double valor = ler.nextDouble();
 
         double valor_final = calcular_prestacoes(valor);
-        System.out.printf("Valor de cada prestação sera R$%.2f", valor_final);
+        System.out.printf("Valor de cada prestação(5x sem juros): R$%.2f", valor_final);
 
         ler.close();
     }
