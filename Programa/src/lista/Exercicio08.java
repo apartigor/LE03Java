@@ -20,7 +20,7 @@ public class Exercicio08 {
         Aluno objAluno = new Aluno(nome, nota1, nota2, nota3);
         double media = objAluno.calcular_media(nota1, nota2, nota3);
 
-        System.out.println("Nome: " + nome);
+        System.out.println("Nome do Aluno: " + nome);
         verificarAprovacao(media);
 
         ler.close();
