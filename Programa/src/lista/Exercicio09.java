@@ -1,7 +1,7 @@
 package lista;
 
 import java.util.Scanner;
-import lista.classes.IntervaloDeNums;
+import lista.classes.IntervaloDeNum;
 
 public class Exercicio09 {
     public static void executar() {
@@ -15,7 +15,7 @@ public class Exercicio09 {
             num[i] = ler.nextInt();
         }
 
-        IntervaloDeNums objIntervalo = new IntervaloDeNums();
+        IntervaloDeNum objIntervalo = new IntervaloDeNum();
 
         int contador = objIntervalo.verificarnumeros(num, cont);
 

@@ -1,7 +1,7 @@
 package lista;
 
 import java.util.Scanner;
-import lista.classes.AlunoAprovado;
+import lista.classes.Aluno;
 
 public class Exercicio08 {
     public static void executar() {
@@ -17,7 +17,7 @@ public class Exercicio08 {
         System.out.println("Digite a Nota 3: ");
         double nota3 = ler.nextDouble();
 
-        AlunoAprovado objAluno = new AlunoAprovado(nome, nota1, nota2, nota3);
+        Aluno objAluno = new Aluno(nome, nota1, nota2, nota3);
         double media = objAluno.calcular_media(nota1, nota2, nota3);
 
         System.out.println("Nome: " + nome);

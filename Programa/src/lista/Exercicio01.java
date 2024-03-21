@@ -18,9 +18,9 @@ public class Exercicio01 {
         double nota3 = ler.nextDouble();
 
         Aluno objAluno = new Aluno(nome, nota1, nota2, nota3);
-        double media = (objAluno.nota1 + objAluno.nota2 + objAluno.nota3) / 3;
+        double media = objAluno.calcular_media(nota1, nota2, nota3);
 
-        System.out.println("Nome: " + objAluno.nome);
+        System.out.println("Nome: " + nome);
         System.out.printf("Média: %.2f", media);
 
         ler.close();

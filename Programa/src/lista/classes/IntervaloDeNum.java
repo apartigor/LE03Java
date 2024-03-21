@@ -1,6 +1,6 @@
 package lista.classes;
 
-public class IntervaloDeNums {
+public class IntervaloDeNum {
 
     public int verificarnumeros(int[] num, int cont) {
         for (int i = 0; i < num.length; i++) {
