@@ -1,8 +1,8 @@
 package lista.classes;
 
 public class ContaLuz {
-    private String tipoCliente;
-    private double valorKWh;
+    public String tipoCliente;
+    public double valorKWh;
 
     public ContaLuz(String tipoCliente) {
         this.tipoCliente = tipoCliente;

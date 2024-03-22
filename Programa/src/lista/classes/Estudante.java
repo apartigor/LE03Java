@@ -1,11 +1,11 @@
 package lista.classes;
 
 public class Estudante {
-    private String nome;
-    private int numeroMatricula;
-    private double notaLaboratorio;
-    private double notaSemestral;
-    private double notaExameFinal;
+    public String nome;
+    public int numeroMatricula;
+    public double notaLaboratorio;
+    public double notaSemestral;
+    public double notaExameFinal;
 
     public Estudante(String nome, int numeroMatricula, double notaLaboratorio, double notaSemestral, double notaExameFinal) {
         this.nome = nome;

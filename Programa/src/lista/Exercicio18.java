@@ -6,19 +6,19 @@ import lista.classes.ReajusteSexo;
 
 public class Exercicio18 {
     public static void executar() {
-        Scanner sc = new Scanner(System.in);
+        Scanner ler = new Scanner(System.in);
 
         System.out.println("Digite o nome do funcionário:");
-        String nome = sc.nextLine();
+        String nome = ler.nextLine();
 
         System.out.println("Digite a idade do funcionário:");
-        int idade = sc.nextInt();
+        int idade = ler.nextInt();
 
         System.out.println("Digite o sexo do funcionário (M/F):");
-        char sexo = sc.next().charAt(0);
+        char sexo = ler.next().charAt(0);
 
         System.out.println("Digite o salário fixo do funcionário:");
-        double salarioFixo = sc.nextDouble();
+        double salarioFixo = ler.nextDouble();
 
         ReajusteSexo reajusteSexo = new ReajusteSexo(nome, idade, sexo, salarioFixo);
 
@@ -26,6 +26,6 @@ public class Exercicio18 {
         System.out.println("Abono: R$ " + reajusteSexo.Abono());
         System.out.println("Salário Líquido: R$ " + reajusteSexo.calcularSalarioLiquido());
 
-        sc.close();
+        ler.close();
     }
 }

@@ -1,8 +1,8 @@
 package lista.classes;
 
 public class Funcionario {
-    private double salario;
-    private static final double salarioMinimo = 1412;
+    public double salario;
+    public static final double salarioMinimo = 1412;
 
     public Funcionario(double salario) {
         this.salario = salario;

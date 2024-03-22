@@ -6,19 +6,19 @@ import lista.classes.Reajuste;
 
 public class Exercicio17 {
     public static void executar() {
-        Scanner sc = new Scanner(System.in);
+        Scanner ler = new Scanner(System.in);
 
         System.out.println("Digite o nome do funcionário:");
-        String nome = sc.nextLine();
+        String nome = ler.nextLine();
 
         System.out.println("Digite o salário atual do funcionário:");
-        double salarioAtual = sc.nextDouble();
+        double salarioAtual = ler.nextDouble();
 
         System.out.println("Digite o valor do salário mínimo:");
-        double salarioMinimo = sc.nextDouble();
+        double salarioMinimo = ler.nextDouble();
 
         System.out.println("Digite a porcentagem de reajuste desejada:");
-        double porcentagemReajuste = sc.nextDouble();
+        double porcentagemReajuste = ler.nextDouble();
 
         Reajuste reajuste = new Reajuste(nome, salarioAtual, salarioMinimo, porcentagemReajuste);
 
@@ -31,6 +31,6 @@ public class Exercicio17 {
         double aumentoFolha = reajuste.calcularAumentoFolha();
         System.out.printf("Aumento na folha de pagamento: R$ %.2f%n", aumentoFolha);
 
-        sc.close();
+        ler.close();
     }
 }

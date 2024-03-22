@@ -1,7 +1,7 @@
 package lista.classes;
 
 public class CategoriaNadador {
-        private int idade;
+        public int idade;
     
         public CategoriaNadador(int idade) {
             this.idade = idade;

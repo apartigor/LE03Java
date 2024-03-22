@@ -5,19 +5,19 @@ import lista.classes.SalarProfessor;
 
 public class Exercicio20 {
     public static void executar() {
-        Scanner sc = new Scanner(System.in);
+        Scanner ler = new Scanner(System.in);
 
         System.out.println("Informe o nível do professor (1, 2 ou 3): ");
-        int nivel = sc.nextInt();
+        int nivel = ler.nextInt();
 
         System.out.println("Informe a quantidade de horas/aula dadas: ");
-        int horasAula = sc.nextInt();
+        int horasAula = ler.nextInt();
 
         SalarProfessor salarProfessor = new SalarProfessor(nivel);
         double salario = salarProfessor.calcularSalario(horasAula);
 
         System.out.println("O salário do professor é: R$" + salario);
 
-        sc.close();
+        ler.close();
     }
 }

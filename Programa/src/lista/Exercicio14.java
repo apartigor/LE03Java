@@ -6,16 +6,16 @@ import java.util.Scanner;
 
 public class Exercicio14 {
     public static void executar() {
-        Scanner sc = new Scanner(System.in);
+        Scanner ler = new Scanner(System.in);
 
         Produto[] produtos = new Produto[39];
 
         for (int i = 0; i < produtos.length; i++) {
             System.out.printf("Informe o preço de custo do produto %d: ", i + 1);
-            double precoCusto = sc.nextDouble();
+            double precoCusto = ler.nextDouble();
 
             System.out.printf("Informe o preço de venda do produto %d: ", i + 1);
-            double precoVenda = sc.nextDouble();
+            double precoVenda = ler.nextDouble();
 
             produtos[i] = new Produto(precoCusto, precoVenda);
         }
@@ -36,6 +36,6 @@ public class Exercicio14 {
         System.out.printf("Média de preço de custo: R$ %.2f%n", mediaPrecoCusto);
         System.out.printf("Média de preço de venda: R$ %.2f%n", mediaPrecoVenda);
 
-        sc.close();
+        ler.close();
     }
 }

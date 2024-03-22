@@ -5,26 +5,26 @@ import lista.classes.Estudante;
 
 public class Exercicio25 {
     public static void executar() {
-        Scanner sc = new Scanner(System.in);
+        Scanner ler = new Scanner(System.in);
 
         System.out.println("Digite o nome do estudante: ");
-        String nome = sc.nextLine();
+        String nome = ler.nextLine();
 
         System.out.println("Digite o número de matrícula do estudante: ");
-        int numeroMatricula = sc.nextInt();
+        int numeroMatricula = ler.nextInt();
 
         System.out.println("Digite a nota do trabalho de laboratório (0 a 10): ");
-        double notaLaboratorio = sc.nextDouble();
+        double notaLaboratorio = ler.nextDouble();
 
         System.out.println("Digite a nota da avaliação semestral (0 a 10): ");
-        double notaSemestral = sc.nextDouble();
+        double notaSemestral = ler.nextDouble();
 
         System.out.println("Digite a nota do exame final (0 a 10): ");
-        double notaExameFinal = sc.nextDouble();
+        double notaExameFinal = ler.nextDouble();
 
         Estudante estudante = new Estudante(nome, numeroMatricula, notaLaboratorio, notaSemestral, notaExameFinal);
         estudante.imprimirDados();
 
-        sc.close();
+        ler.close();
     }
 }

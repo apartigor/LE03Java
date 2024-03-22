@@ -4,16 +4,16 @@ import java.util.Scanner;
 import lista.classes.Triangulo;
 public class Exercicio19 {
     public static void executar() {
-        Scanner sc = new Scanner(System.in);
+        Scanner ler = new Scanner(System.in);
 
         System.out.println("Digite o comprimento do lado 1 do triângulo:");
-        int lado1 = sc.nextInt();
+        int lado1 = ler.nextInt();
 
         System.out.println("Digite o comprimento do lado 2 do triângulo:");
-        int lado2 = sc.nextInt();
+        int lado2 = ler.nextInt();
 
         System.out.println("Digite o comprimento do lado 3 do triângulo:");
-        int lado3 = sc.nextInt();
+        int lado3 = ler.nextInt();
 
         Triangulo triangulo = new Triangulo(lado1, lado2, lado3);
 
@@ -22,7 +22,7 @@ public class Exercicio19 {
         } else {
             System.out.println("Os lados não podem formar um triângulo válido");
         }
-        sc.close();
+        ler.close();
     }
 }
 

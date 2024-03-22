@@ -1,9 +1,9 @@
 package lista.classes;
 
 public class NotaEstudante {
-    private double notaLaboratorio;
-    private double notaSemestral;
-    private double notaExameFinal;
+    public double notaLaboratorio;
+    public double notaSemestral;
+    public double notaExameFinal;
 
     public NotaEstudante(double notaLaboratorio, double notaSemestral, double notaExameFinal) {
         this.notaLaboratorio = notaLaboratorio;
