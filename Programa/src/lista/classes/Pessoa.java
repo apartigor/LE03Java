@@ -1,5 +1,4 @@
 package lista.classes;
-import java.util.Scanner;
 
 public class Pessoa {
 
