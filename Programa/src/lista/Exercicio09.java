@@ -7,7 +7,7 @@ public class Exercicio09 {
     public static void executar() {
         Scanner ler = new Scanner(System.in);
 
-        int num[] = new int[5];
+        int num[] = new int[80];
         int cont = 0;
 
         for (int i = 0; i < num.length; i++){
