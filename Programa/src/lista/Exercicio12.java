@@ -1,7 +1,7 @@
 package lista;
 
 import java.util.Scanner;
-import lista.classes.*;
+import lista.classes.CalcularDesconto;
 
 public class Exercicio12 {
     public static void executar() {
