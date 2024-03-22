@@ -16,8 +16,8 @@ public class Exercicio24 {
         System.out.println("Digite a nota do exame final (0 a 10): ");
         double notaExameFinal = ler.nextDouble();
 
-        NotaEstudante notaEstudante = new NotaEstudante(notaLaboratorio, notaSemestral, notaExameFinal);
-        double notaFinal = notaEstudante.calcularNotaFinal();
+        NotaEstudante objNotaEst = new NotaEstudante(notaLaboratorio, notaSemestral, notaExameFinal);
+        double notaFinal = objNotaEst.calcularNotaFinal();
 
         System.out.println("A nota final do estudante é: " + notaFinal);
 
