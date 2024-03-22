@@ -104,10 +104,10 @@ public class Programa {
              case 22:
              Exercicio22.executar();
              break;
-             case 23:
+             */case 23:
              Exercicio23.executar();
              break;
-             case 24:
+             /*case 24:
              Exercicio24.executar();
              break;
              case 25:
