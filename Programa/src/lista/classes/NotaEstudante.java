@@ -12,11 +12,6 @@ public class NotaEstudante {
     }
 
     public double calcularNotaFinal() {
-<<<<<<< HEAD
         return (notaLaboratorio * 2 + notaSemestral * 3 + notaExameFinal * 5) / 10;
-=======
-        double notaFinal = (notaLaboratorio * 2 + notaSemestral * 3 + notaExameFinal * 5) / 10;
-        return notaFinal;
->>>>>>> 988b6d6475e84bd25e13a4146da43022e72b0728
     }
 }
