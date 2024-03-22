@@ -1,7 +1,7 @@
 package lista;
 
 import java.util.Scanner;
-import lista.classes.*;
+import lista.classes.VerificarIdade;
 
 public class Exercicio10 {
     public static void executar() {
