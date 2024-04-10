@@ -1,7 +1,7 @@
 package lista;
 
 import java.util.Scanner;
-import lista.classes.VerificarIdade;
+import lista.classes.VerificadorIdade;
 
 public class Exercicio10 {
     public static void executar() {
@@ -12,7 +12,7 @@ public class Exercicio10 {
 
         int pessoas[] = new int[tamvet];
 
-        VerificarIdade objVerificador = new VerificarIdade();
+        VerificadorIdade objVerificador = new VerificadorIdade();
 
         for (int i = 0; i < pessoas.length; i++) {
             System.out.printf("Digite a idade da %d(º) pessoa: ", i + 1);

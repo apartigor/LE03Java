@@ -1,12 +1,12 @@
 package lista;
 
 import java.util.Scanner;
-import lista.classes.CalcularDesconto;
+import lista.classes.CalculadoraDesconto;
 
 public class Exercicio12 {
     public static void executar() {
         Scanner ler = new Scanner(System.in);
-        CalcularDesconto objCalculadora = new CalcularDesconto();
+        CalculadoraDesconto objCalculadora = new CalculadoraDesconto();
 
         char continuar;
         do {

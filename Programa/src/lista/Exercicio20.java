@@ -1,7 +1,7 @@
 package lista;
 import java.util.Scanner;
 
-import lista.classes.SalarProfessor;
+import lista.classes.SalarioProfessor;
 
 public class Exercicio20 {
     public static void executar() {
@@ -13,7 +13,7 @@ public class Exercicio20 {
         System.out.println("Informe a quantidade de horas/aula dadas: ");
         int horasAula = ler.nextInt();
 
-        SalarProfessor salarProfessor = new SalarProfessor(nivel);
+        SalarioProfessor salarProfessor = new SalarioProfessor(nivel);
         double salario = salarProfessor.calcularSalario(horasAula);
 
         System.out.println("O salário do professor é: R$" + salario);

@@ -1,11 +1,11 @@
 package lista.classes;
 import java.util.Scanner;
 
-public class VerificarSexo {
+public class VerificadorSexo {
 
     public Scanner ler;
 
-    public VerificarSexo(Scanner ler) {
+    public VerificadorSexo(Scanner ler) {
         this.ler = ler;
     }
 

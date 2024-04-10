@@ -1,7 +1,7 @@
 package lista;
 
 import java.util.Scanner;
-import lista.classes.VerificarSexo;
+import lista.classes.VerificadorSexo;
 
 public class Exercicio11 {
     public static void executar() {
@@ -11,7 +11,7 @@ public class Exercicio11 {
         int contM = 0;
         int contF = 0;
 
-        VerificarSexo objVerificador = new VerificarSexo(ler);
+        VerificadorSexo objVerificador = new VerificadorSexo(ler);
 
         for (int i = 0; i < pessoas.length; i++) {
             System.out.printf("Digite seu nome(%d): ", i + 1);

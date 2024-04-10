@@ -1,6 +1,6 @@
 package lista.classes;
 
-public class VerificarIdade {
+public class VerificadorIdade {
 
     public void verificador_idade(int[] pessoas, int i) {
 

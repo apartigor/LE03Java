@@ -1,11 +1,11 @@
 package lista.classes;
 
-public class SalarProfessor {
+public class SalarioProfessor {
 
         private int nivel;
         private double valorHoraAula;
     
-        public SalarProfessor(int nivel) {
+        public SalarioProfessor(int nivel) {
             this.nivel = nivel;
             switch (nivel) {
                 case 1:

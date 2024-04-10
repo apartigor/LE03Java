@@ -1,10 +1,10 @@
 package lista.classes;
 
-public class CalcularDesconto {
+public class CalculadoraDesconto {
     public int totalCarrosAte2000;
     public int totalGeral;
 
-    public CalcularDesconto() {
+    public CalculadoraDesconto() {
         this.totalCarrosAte2000 = 0;
         this.totalGeral = 0;
     }
