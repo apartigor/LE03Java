@@ -1,9 +1,9 @@
 package br.edu.up.lista.classes;
 
 public class NotaEstudante {
-    public double notaLaboratorio;
-    public double notaSemestral;
-    public double notaExameFinal;
+    private double notaLaboratorio;
+    private double notaSemestral;
+    private double notaExameFinal;
 
     public NotaEstudante(double notaLaboratorio, double notaSemestral, double notaExameFinal) {
         this.notaLaboratorio = notaLaboratorio;

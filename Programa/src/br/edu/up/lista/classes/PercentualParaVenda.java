@@ -1,8 +1,8 @@
 package br.edu.up.lista.classes;
 
 public class PercentualParaVenda {
-    public double valorcusto;
-    public double perc;
+    private double valorcusto;
+    private double perc;
 
 
     public PercentualParaVenda(double valorcusto, double perc){

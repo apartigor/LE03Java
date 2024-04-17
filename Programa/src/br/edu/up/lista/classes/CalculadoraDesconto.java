@@ -1,8 +1,8 @@
 package br.edu.up.lista.classes;
 
 public class CalculadoraDesconto {
-    public int totalCarrosAte2000;
-    public int totalGeral;
+    private int totalCarrosAte2000;
+    private int totalGeral;
 
     public CalculadoraDesconto() {
         this.totalCarrosAte2000 = 0;

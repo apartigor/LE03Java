@@ -1,8 +1,8 @@
 package br.edu.up.lista.classes;
 
 public class ContaLuz {
-    public String tipoCliente;
-    public double valorKWh;
+    private String tipoCliente;
+    private double valorKWh;
 
     public ContaLuz(String tipoCliente) {
         this.tipoCliente = tipoCliente;

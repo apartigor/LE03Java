@@ -1,8 +1,8 @@
 package br.edu.up.lista.classes;
 
 public class Produto {
-    public double precoCusto;
-    public double precoVenda;
+    private double precoCusto;
+    private double precoVenda;
 
     public Produto(double precoCusto, double precoVenda) {
         this.precoCusto = precoCusto;

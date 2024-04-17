@@ -1,8 +1,8 @@
 package br.edu.up.lista.classes;
 
 public class ConversaoMoeda {
-    public double dolar;
-    public double cotacao;
+    private double dolar;
+    private double cotacao;
 
     public ConversaoMoeda(double dolar, double cotacao) {
         this.dolar = dolar;

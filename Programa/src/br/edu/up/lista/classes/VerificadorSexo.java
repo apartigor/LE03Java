@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class VerificadorSexo {
 
-    public Scanner ler;
+    private Scanner ler;
 
     public VerificadorSexo(Scanner ler) {
         this.ler = ler;

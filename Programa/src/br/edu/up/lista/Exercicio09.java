@@ -16,7 +16,7 @@ public class Exercicio09 {
             num[i] = ler.nextInt();
         }
 
-        IntervaloDeNum objIntervalo = new IntervaloDeNum();
+        IntervaloDeNum objIntervalo = new IntervaloDeNum(cont, cont);
 
         int contador = objIntervalo.verificarnumeros(num, cont);
 

@@ -1,8 +1,8 @@
 package br.edu.up.lista.classes;
 
 public class Consumo {
-    public double distanciaTotal;
-    public double combustivelGasto;
+    private double distanciaTotal;
+    private double combustivelGasto;
 
     public Consumo(double distanciaTotal, double combustivelGasto) {
         this.distanciaTotal = distanciaTotal;

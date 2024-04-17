@@ -2,10 +2,10 @@ package br.edu.up.lista.classes;
 
 public class Pessoa {
 
-    public String nome;
-    public char sexo;
-    public int idade;
-    public char saude;
+    private String nome;
+    private char sexo;
+    private int idade;
+    private char saude;
 
     public Pessoa(String nome, char sexo, int idade, char saude) {
         this.nome = nome;

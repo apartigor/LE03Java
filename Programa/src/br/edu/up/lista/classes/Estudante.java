@@ -1,11 +1,11 @@
 package br.edu.up.lista.classes;
 
 public class Estudante {
-    public String nome;
-    public int numeroMatricula;
-    public double notaLaboratorio;
-    public double notaSemestral;
-    public double notaExameFinal;
+    private String nome;
+    private int numeroMatricula;
+    private double notaLaboratorio;
+    private double notaSemestral;
+    private double notaExameFinal;
 
     public Estudante(String nome, int numeroMatricula, double notaLaboratorio, double notaSemestral, double notaExameFinal) {
         this.nome = nome;

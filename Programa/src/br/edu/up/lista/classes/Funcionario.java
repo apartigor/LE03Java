@@ -1,7 +1,7 @@
 package br.edu.up.lista.classes;
 
 public class Funcionario {
-    public double salario;
+    private double salario;
     public static final double salarioMinimo = 1412;
 
     public Funcionario(double salario) {

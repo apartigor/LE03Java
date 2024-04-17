@@ -12,7 +12,7 @@ public class Exercicio07 {
         double valorcusto = ler.nextDouble();
         double valorcustoimposto = 0;
 
-        PercentualParaVendaCarro objPerc = new PercentualParaVendaCarro();
+        PercentualParaVendaCarro objPerc = new PercentualParaVendaCarro(valorcustoimposto, valorcustoimposto);
 
         double valorvenda = objPerc.calcular_percentual(valorcustoimposto, valorcusto);
 

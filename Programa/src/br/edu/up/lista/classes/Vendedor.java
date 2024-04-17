@@ -1,9 +1,9 @@
 package br.edu.up.lista.classes;
 
 public class Vendedor {
-    public String nome;
-    public double salar_fix;
-    public double totalvendas;
+    private String nome;
+    private double salar_fix;
+    private double totalvendas;
 
     public Vendedor(String nome, double totalvendas, double salar_fix) {
         this.nome = nome;
